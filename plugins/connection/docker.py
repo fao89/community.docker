@@ -37,6 +37,7 @@ DOCUMENTATION = '''
             - The name of the container you want to access.
         default: inventory_hostname
         vars:
+            - name: inventory_hostname
             - name: ansible_host
             - name: ansible_docker_host
 '''
